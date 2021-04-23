@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Facebook SignUp</title>
+<style type="text/css">
+body{padding:0px;
+     margin:0px;
+     background-color:#EFF9FA;
+     font-family:Arial;}
+.heading{background-color:#3b5998;
+    height:70px;}
+#main{position:absolute;
+     left:150px;
+     top:20px;
+     font-size:30px;
+     font-weight:bold;
+     color:white;
+     font-family:Tahoma;}
+#new{position:absolute;
+   text-decoration:none;
+     left:270px;
+     top:25px;
+     background-color:#47CD12;
+     color:white;
+     font-weight:bold;
+     border:none;
+     padding:5px;
+}
+a{text-decoration:none;
+  
+  font-size:13px;
+  }
+.heading a{margin-left:180px;
+           color:white;}
+#login{position:absolute;
+      left:800px;
+      color:white;}
+.heading input[type="button"]{
+   margin-top:20px;
+   background-color:#0C6DC0;
+   color:white;
+   padding:2px;
+}
+.body{position:absolute;
+    top:180px;
+    left:100px;
+    float:left;}
+ #text{margin-left:30px;
+       font-weight:bold;
+       font-size:22px;
+       color:#1153A4;}
+.form{width:450px;
+      position:absolute;
+      left:800px;}
+.form input,select{padding:10px;
+      border-radius:5px;
+      border:none;
+      margin-top:10px;}
+.form input[type="password"],[type="number"]{
+   width:380px;
+}
+#other{
+    padding-top:20px;
+    padding-bottom:10px;
+}
+.form input[type="button"]{
+  width:200px;
+  background-color:#3C8209;
+  font-size:20px;
+  font-weight:bold;
+  color:white;
+}
+</style>
+</head>
+<body>
+<div class="heading">
+  <span id="main">facebook</span>
+ <table id="login">
+  <tr><td>Email or Phone<br><input type="text" ></td>
+    <td>Password<br><input type="password"><br></td>
+    <td><input type="button" value="Log In"></td>
+    <tr><td colspan=2"><a href="#">Forgotten account?</a></td>
+    </tr>
+  </table>
+</div>
+<div class="body">
+  <span id="text">Facebook helps you connect and share with the<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; people in your life.<br></span>
+  <img src="people.png">
+</div>
+
+  
+  <table class="form">
+    <tr><td><h1>Create an Account</h1>
+  <b>It's free and always will be.</b></td></tr>
+    <tr>
+      <td><input type="text" placeholder="First name"></td>
+      <td><input type="text" placeholder="Surname"></td></tr>
+      <tr><td colspan=2><input type="number" placeholder="Mobile Number or email address"></td></tr>
+      <tr><td colspan=2><input type="password" placeholder="Password"></td></tr>
+      <tr><td colspan=2 id="other"><span style="font-weight:bold;
+    color:grey;">Birthday</span><br><select>
+        <option>12</option>
+        <option>15</option>
+        <option>19</option>
+      </select>
+      <select>
+        <option>Jul</option>
+        <option>Sep</option>
+        <option>Nov</option>
+      </select>
+      <select>
+        <option>1994</option>
+        <option>1999</option>
+        <option>2002</option>
+      </select></td></tr>
+      <tr><td colspan=2 id="other"><span style="font-weight:bold;
+    color:grey;">Gender</span><br>
+           <input type="radio" name="gender">Male
+           <input type="radio" name="gender">Female
+           <input type="radio" name="gender">Custom
+         </td></tr>
+      <tr><td colspan=2>By clicking Sign Up, you agree to our <a href="#">Terms, Data Policy</a> and <br><a href="#"> Cookie Policy.</a>You may receive SMS notifications from us and <br> can opt out anytime.</td></tr>
+      <tr><td colspan=2><input type="button" value="Sign Up"></td></tr>
+    </table>
+</div>
